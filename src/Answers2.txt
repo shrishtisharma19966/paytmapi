@@ -1,0 +1,18 @@
+
+// answers of 2nd question
+Test cases:-
+
+Positive Scenarios and Edge Scenarios:- 
+1. firstly verify that the user is a New User, If the user apply promocode then that promocode should be same as NEW30 and it should be case sensitive.
+2. Verify that If the User is doing minimum 1000 rs transaction then it'll get 300 rs discount, the Net amount payable should be 1000-300 = 700.
+3. Verify that if the user is doing trasnaction of more than 1000 rs then it should get maximum cap of 300 rs, the Net amount payable should be amount-300.
+4. If a new user is doing trasaction less than 1000 then the discount should not be applicable for him.  
+5. Verify that if the user is a old user then this discount should not be applicable for him.
+6. Verify that New User for whom the promocode is applicable should enter 7 degits of promocode. 
+
+
+Negative Scenarios and Edge Scenarios:- 
+1. Verify that is old user is doing transaction of 1000 rs then this code should not be applicable.
+2. Verify that is the new user who is doing transaction of more than or equal to 1000 rs and entering promo code which is which is not in capital letters.
+3. Verify that is the new user who is doing transaction of more than or equal to 1000 rs and entering promo code of greater than 7 character then that should not be allowed to be enter. 
+4. Verify that is the new user who is doing transaction of more than or equal to 1000 rs and entering any old or random promo code than that promo code should not be applicable.

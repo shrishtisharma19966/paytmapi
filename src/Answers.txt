@@ -1,0 +1,11 @@
+//  Answer of 1st question
+ select  Salary.Salary, employee.EmpName
+ from Employee inner join Salary
+  on Salary.EmpID = employee.EmpID
+  where salary.salary 
+  in(select top(1) salary from salary where salary in (select top(n) salary from salary order by salary desc) order by salary);
+ 
+ // ii) part answer of 1st question 
+ update salary set Salary = 5000 
+where empid in (select empid from Employee 
+where TIMESTAMPDIFF(YEAR, str_to_date(date_od_birth, '%Y-%M-%d')) > 30);

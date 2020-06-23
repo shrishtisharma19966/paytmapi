@@ -1,0 +1,12 @@
+
+//2nd part answer of 3rd question
+1. Verify that the code should count prime number correctly that it should not count any other number as prime number.
+2. Verify that it should not skip any prime no. to enter in List.
+3. Verify that it should enter only 100 values in List.
+4. Verify that when it get any no. other than prime no. then it should skip it and move to next no.
+5. Verify that no. prime no. should be repeated in list.
+6. Verify that the prime no, should be display in sequence no i.e. in ascending order.
+
+
+
+
